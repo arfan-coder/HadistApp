@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".HadistNiat">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Semua bergantung pada niat"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="28sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="إنَّمَا الأعمَال بالنِّيَّاتِ وإِنَّما لِكُلِّ امريءٍ ما نَوَى فَمَنْ كَانَتْ هِجْرَتُهُ إلى اللهِ ورَسُولِهِ فهِجْرَتُهُ إلى اللهِ ورَسُوْلِهِ ومَنْ كَانَتْ هِجْرَتُهُ لِدُنْيَا يُصِيْبُها أو امرأةٍ يَنْكِحُهَا فهِجْرَتُهُ إلى ما هَاجَرَ إليهِ"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/niat"
+        android:textColor="@android:color/black" />
+
+</LinearLayout>

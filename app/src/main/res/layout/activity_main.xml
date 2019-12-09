@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".MainScreen">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="Hadist Arbain"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="32sp" />
+
+    <Button
+        android:id="@+id/niat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hadist tentang niat" />
+
+    <Button
+        android:id="@+id/pintu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hadist tentang pintu Ar-rayyan" />
+
+    <Button
+        android:id="@+id/iman"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hadist tentang keimanan seseorang" />
+
+    <Button
+        android:id="@+id/pilar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hadist tentang 5 pilar islam" />
+
+    <Button
+        android:id="@+id/gambar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hadist tentang gambar yang di pajang" />
+
+</LinearLayout>
